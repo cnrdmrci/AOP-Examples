@@ -5,7 +5,7 @@ Aop(Aspected Oriented Programming); Kod içerisindeki karmaşıklığı azalmak 
 
 Bu oluşturulan modüller fonksiyonel olmayan amaçlara yönelik kullanılmaktadır. Örnek olarak logging, caching, exception handling, security gibi işlemler olarak düşünülebilir.
 
-Örnek tasarım aşağıdaki gibidir;
+Örnek tasarım aşağıdaki gibidir;\
 ![CrossCuttingConcerns](https://user-images.githubusercontent.com/16361055/79202831-d71a7c80-7e42-11ea-91e0-635a24eff0ca.jpg)
 
 
