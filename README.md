@@ -13,7 +13,7 @@ Bu oluşturulan modüller fonksiyonel olmayan amaçlara yönelik kullanılmaktad
 
 Aop için 2 çeşit kullanım yöntemi vardır.
 - IL Weaving;\
- 	Bu yöntem method çalışmadan öncesinde ve sonrasına müdahale ederek kodu direk çalıştırmaktadır. Diğer yönteme göre daha hızlı oluşmaktadır. Örnek kütüphaneler; PostSharp(Ücretli), KingAop(PostSharp'a alternatik open source kütüphane.).
+ 	Bu yöntem method çalışmadan öncesinde ve sonrasına müdahale ederek kodu direk çalıştırmaktadır. Diğer yönteme göre daha hızlı oluşmaktadır. Örnek kütüphaneler; PostSharp(Ücretli).
 
 - Method Interception;\
 	Bu yöntem de aynı şekilde method çalışmadan öncesinde ve sonrasında müdahale ederek kodu reflection yardımıyla çalıştırmaktadır. IL Weaving yönteminden bu nedenle bir tık daha yavaş kalmaktadır. Ama abartılacak bir yavaşlığı bulunmamaktadır. Örnek Kütüphaneler; Castle Windsor, Autofac.
