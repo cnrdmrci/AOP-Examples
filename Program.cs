@@ -1,4 +1,9 @@
 ﻿using System;
+using System.IO;
+using System.Linq;
+using Autofac;
+using Autofac.Extras.DynamicProxy;
+using Castle.DynamicProxy;
 
 namespace AopExamples
 {
@@ -7,6 +12,11 @@ namespace AopExamples
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            WithAutofac.Run();
         }
     }
+
+    
+
+
 }
